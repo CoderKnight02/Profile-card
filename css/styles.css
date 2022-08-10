@@ -43,7 +43,7 @@ body{
     color: hsl(227, 10%, 46%);
     font-weight: 400;
 }
-main .card-text-light{
+.main .card-text-light{
     margin-top: -10px;
     font-size: 14px;
 }
@@ -136,7 +136,7 @@ header {
     margin-top: 25px;
 }
 
-main{
+.main{
     margin-top: 65px;
 }
 
