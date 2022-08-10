@@ -1,0 +1,152 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+
+}
+
+body{
+
+
+    display: -webkit-box;
+
+
+    display: -ms-flexbox;
+
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow: hidden;
+
+    background-color: hsl(185, 75%, 39%);
+    
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+.card-text{
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+.card-text-light{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+main .card-text-light{
+    margin-top: -10px;
+    font-size: 14px;
+}
+footer .card-text-light{
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-top: -12px;
+   
+}
+span.card-text-light{
+    font-size: 18px;
+}
+
+
+.bg-top{
+    position: absolute;
+    top: -510px;
+    left: -250px;
+
+}
+
+.bg-bottom{
+    position: absolute;
+    bottom: -630px;
+    right: -250px;
+}
+
+
+.cont{
+
+    min-width: 1440px;
+    min-height: 667px;
+    position: relative;
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    
+    /* background-color: hsl(185, 75%, 39%); */
+
+}
+
+header {
+    display: block;
+    /* width: 100%; */
+    
+}
+.card{
+
+    width: 320px;
+    position: relative;
+    z-index: 1;
+
+    overflow: hidden;
+    border-radius: 15px;
+    
+    
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+.card_patt{
+    width: 100%;
+}
+
+.avatar{
+    position: absolute;
+    top: 80px;
+    left: 112px;
+    
+    border-radius: 50%;
+    outline: 5px solid white;
+    
+    
+}
+
+.line{
+    border: 0 none;
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 25px;
+}
+
+main{
+    margin-top: 65px;
+}
+
+
+.stats{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 5px 20px;
+    padding-bottom: 10px;
+}
